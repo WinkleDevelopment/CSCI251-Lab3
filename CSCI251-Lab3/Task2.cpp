@@ -25,13 +25,13 @@ public:
         this->breed = breed;
         this->age = age;
     }
-    Cat() {}; // Empty Constructor
-    ~Cat() {}; // Destructor
     Cat(const Cat& cCat) { // Copy Constructor
         this->name = cCat.name;
         this->breed = cCat.breed;
         this->age = cCat.age;
-    }; 
+    };
+    Cat() {}; // Empty Constructor
+    ~Cat() {}; // Destructor
     void setCatData(string, string, int);
     void showCat();
     void addressCat();
@@ -59,30 +59,30 @@ void Cat::addressCat() {
     cout << "Licence Fee    :   " << &licenseFee << endl;
 }
 
-int main() {
-    // Empty Object
-    Cat myCat;
-    myCat.showCat();
-
-    cout << endl;
-
-    // Filled Using Constuctor
-    Cat myCat2("Unit","Absolute Unit",2);
-    myCat2.showCat();
-
-    cout << endl;
-
-    // Empty Then Using Methods to Set Data of Object
-    Cat myCat3;
-    myCat3.setCatData("Tigger", "Fluffy unit", 3);
-    myCat3.showCat();
-
-    cout << endl;
-
-    // Filled Using Copy Constructor
-    Cat myCat4(myCat2);
-    myCat4.showCat();
-    myCat4.addressCat();
-
-    return 0;
-}
+//int main() {
+//    // Empty Object
+//    Cat myCat;
+//    myCat.showCat();
+//
+//    cout << endl;
+//
+//    // Filled Using Constuctor
+//    Cat myCat2("Unit","Absolute Unit",2);
+//    myCat2.showCat();
+//
+//    cout << endl;
+//
+//    // Empty Then Using Methods to Set Data of Object
+//    Cat myCat3;
+//    myCat3.setCatData("Tigger", "Fluffy unit", 3);
+//    myCat3.showCat();
+//
+//    cout << endl;
+//
+//    // Filled Using Copy Constructor
+//    Cat myCat4(myCat2);
+//    myCat4.showCat();
+//    myCat4.addressCat();
+//
+//    return 0;
+//}
