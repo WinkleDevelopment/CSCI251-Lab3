@@ -14,23 +14,21 @@
 using namespace std;
 
 class Hat {
-    public:
-        string type;
-        char size; // S, M, L
-        Hat() {};
-        Hat(string type, char size) {};
-        void display();
-}
-
-Hat::Hat(string type, char size) {
-    this->type = type;
-    this->size = size;
-}
+public:
+    string type;
+    char size; // S, M, L
+    Hat() {};
+    Hat(string type, char size) {
+        this->type = type;
+        this->size = size;
+    }
+    void display();
+};
 
 void Hat::display()
 {
-    cout << "Hat type   : " << size << endl;
     cout << "Hat size   : " << type << endl;
+    cout << "Hat type   : " << size << endl;
 }
 
 class Person {
@@ -39,15 +37,13 @@ public:
     unsigned int idNum;
     Hat myHat;
     Person() {};
-    Person(string name, unsigned int idNum, string type, char size);
+    Person(string name, unsigned int idNum, string type, char size) {
+        this->name = name;
+        this->idNum = idNum;
+        this->myHat = Hat(type, size);
+    }
     void display();
 };
-
-Person::Person(string name, unsigned int idNum, string type, char size) {
-    this->name = name;
-    this->idNum = idNum;
-    this->myHat = Hat(type, size);
-}
 
 void Person::display()
 {
@@ -56,9 +52,11 @@ void Person::display()
     myHat.display();
 }
 
-int main() {
-    Person PersonA("Alice",12321,"Trilbee",'M');
-    Person PersonB("Bob",2324,"Ferret",'S');
-    PersonA.myHat.display();
-    PersonB.display();
-}
+//int main() {
+//    Person PersonA("Alice",12321,"Beret",'M');
+//    Person PersonB("Bob",2324,"Trilby",'S');
+//    PersonA.display();
+//    PersonB.display();
+//
+//    return 0;
+//}

@@ -21,10 +21,12 @@
   <ItemGroup>
     <ClInclude Include="Task1_A.h" />
     <ClInclude Include="Task1_B.h" />
+    <ClInclude Include="Task2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Task1_A.cpp" />
     <ClCompile Include="Task1_B.cpp" />
+    <ClCompile Include="Task2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
