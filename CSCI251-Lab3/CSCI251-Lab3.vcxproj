@@ -24,6 +24,7 @@
     <ClInclude Include="Task2.h" />
     <ClInclude Include="Task3.h" />
     <ClInclude Include="Task4.h" />
+    <ClInclude Include="Task5.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Task1_A.cpp" />
@@ -32,6 +33,8 @@
     <ClCompile Include="Task3.cpp" />
     <ClCompile Include="Task4_A.cpp" />
     <ClCompile Include="Task4_B.cpp" />
+    <ClCompile Include="Task5_A.cpp" />
+    <ClCompile Include="Task5_B.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

@@ -162,22 +162,22 @@ void Staff::display() {
 	cout << "Bonus : $" << this->bonusRate << endl << endl;
 }
 
-//int main() {
-//
-//	Staff member1;
-//	Staff member2(12, "Roger", "Paul", 238.2, 15, 'A');
-//	Staff member3(13, "Poger", "Raul", 835.7, 56, 'B');
-//	Staff member4(14, "Floger", "Zaul", 666.9, 30, 'C');
-//
-//	member1.setFields("Loger", "Faul", 333.0, 98, 'B');
-//
-//	bonusDisplay();
-//
-//	member1.display();
-//	member2.display();
-//	member3.display();
-//	member4.display();
-//
-//	return 0;
-//
-//}
+int main() {
+
+	Staff member1;
+	Staff member2(12, "Roger", "Paul", 238.2, 15, 'A');
+	Staff member3(13, "Poger", "Raul", 835.7, 56, 'B');
+	Staff member4(14, "Floger", "Zaul", 666.9, 30, 'C');
+
+	member1.setFields("Loger", "Faul", 333.0, 98, 'B');
+
+	bonusDisplay();
+
+	member1.display();
+	member2.display();
+	member3.display();
+	member4.display();
+
+	return 0;
+
+}

@@ -52,11 +52,11 @@ void Person::display()
     myHat.display();
 }
 
-//int main() {
-//    Person PersonA("Alice",12321,"Beret",'M');
-//    Person PersonB("Bob",2324,"Trilby",'S');
-//    PersonA.display();
-//    PersonB.display();
-//
-//    return 0;
-//}
+int main() {
+    Person PersonA("Alice",12321,"Beret",'M');
+    Person PersonB("Bob",2324,"Trilby",'S');
+    PersonA.display();
+    PersonB.display();
+
+    return 0;
+}

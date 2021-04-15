@@ -61,14 +61,14 @@ void Worker::displayWorker()
     cout << "ID # " << idNum << "\nName: " << firstName << " " << lastName << "\nSalary: $" << salary << endl;
 }
 
-//int main()
-//{
-//    Worker aWorker;
-//    aWorker.setIdNum(111);
-//    aWorker.setLastName("Anteater");
-//    aWorker.setFirstName("Alice");
-//    aWorker.setSalary(23.45);
-//    aWorker.displayWorker();
-// 
-//    return 0;
-//}
+int main()
+{
+    Worker aWorker;
+    aWorker.setIdNum(111);
+    aWorker.setLastName("Anteater");
+    aWorker.setFirstName("Alice");
+    aWorker.setSalary(23.45);
+    aWorker.displayWorker();
+ 
+    return 0;
+}
