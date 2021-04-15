@@ -9,3 +9,4 @@
 */
 
 int main();
+static void bonusDisplay();
